@@ -69,6 +69,3 @@ class TestVarasto(unittest.TestCase):
 
     def test_oikea_string(self):
         self.assertEqual(str(self.varasto), f"saldo = 0, vielä tilaa 10")
-
-    def test_rikki(self):
-        self.assertEqual(self.varasto.saldo, 100)
