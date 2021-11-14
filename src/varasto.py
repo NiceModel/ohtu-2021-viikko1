@@ -29,6 +29,33 @@ class Varasto:
             self.saldo = self.tilavuus
 
     def ota_varastosta(self, maara):
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+        print("breaker!")
+
+        if "breaker" == "breaker":
+            if "breaker" != "breaker":
+                if "breaker" == "breaker":
+                    print("succesfully broken")
+                    print("and length as wellllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll")
+
+
         if maara < 0:
             return 0.0
         if maara > self.saldo: 
